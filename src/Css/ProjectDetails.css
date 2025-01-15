@@ -1,0 +1,92 @@
+.project-details {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 1rem;
+}
+
+.project-details-header {
+  flex: 1;
+}
+
+.project-details-header h2 {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: rgb(220, 38, 38);
+}
+
+.project-details-header p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.project-details-header p strong {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 1rem;
+  color: rgb(220, 38, 38);
+}
+
+.project-details-content {
+  flex: 2;
+  padding-left: 2rem;
+}
+
+.project-details-content p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.project-details .button {
+  background-color: rgb(220, 38, 38);
+  color: black;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.project-details .button:hover {
+  background-color: black;
+  color: rgb(220, 38, 38);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .project-details {
+    flex-direction: column;
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .project-details-header, .project-details-content {
+    padding-left: 0;
+  }
+
+  .project-details-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .project-details-header p, .project-details-content p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-details-header h2 {
+    font-size: 1.25rem;
+  }
+
+  .project-details-header p, .project-details-content p {
+    font-size: 0.9rem;
+  }
+
+  .project-details .button {
+    padding: 6px 10px;
+    font-size: 0.9rem;
+  }
+}

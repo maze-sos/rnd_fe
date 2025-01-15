@@ -1,0 +1,68 @@
+.loginbody {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    display: flex;
+    padding: 4rem;
+  }
+  
+  h2{
+    color: rgb(220, 38, 38);
+  }
+  
+
+  .form-container {
+    width: 600px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 7px 6px 5px black;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+  
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: rgb(220, 38, 38);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+
+  input:focus,
+  textarea:focus {
+    border-color: rgb(220, 38, 38);
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: rgb(220, 38, 38);
+    border: 1px solid rgb(220, 38, 38);
+  }
+  

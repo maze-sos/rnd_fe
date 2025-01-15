@@ -1,0 +1,137 @@
+/* .footer-bottom {
+    padding: 1rem;
+    background-color:white;
+    color: rgb(220, 38, 38);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(220, 38, 38);
+  }
+
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex-basis: 30%;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:rgb(220, 38, 38);
+  }
+  
+  p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .links .foot-text-link {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: inherit;
+  }
+  
+  .links .foot-text-link:hover {
+    color: #ccc;
+  } */
+
+  .footer-bottom {
+    padding: 1rem;
+    background-color: white;
+    color: rgb(220, 38, 38);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(220, 38, 38);
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-section {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(220, 38, 38);
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.links li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.links .foot-text-link {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.links .foot-text-link:hover {
+    color: #ccc;
+}
+
+@media (min-width: 768px) {
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+    
+    .footer-section {
+        flex-basis: 30%;
+        margin-bottom: 0;
+    }
+    
+    .links li {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+}
