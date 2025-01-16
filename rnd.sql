@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 05, 2024 at 05:50 AM
+-- Generation Time: Jan 15, 2025 at 01:28 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -182,7 +182,7 @@ CREATE TABLE `project_students` (
 INSERT INTO `project_students` (`id`, `name`, `studentid`, `email`, `department`, `status_1`, `status_2`, `password`, `created_at`) VALUES
 (1, 'Adesola Ayomide Oni', 'LUC-NGA-002-ADM-1000398', 'adesolaoni2001@gmail.com', 'Computer Software Engineering', 1, 1, '$2y$10$ZnJYEQihtj780/VMdu9YvOwEnr.SZt/ly935rkLJqFIatw20E9TxC', '2024-03-26 11:25:25'),
 (2, 'test', 'LUC-NGA-002-ADM-1000500', 'test@gmail.com', 'test', 1, 0, '$2y$10$k5kckZ5MjiYfLWhbTP/IzOvZNVCFVmhyn/wZcxjX73sYmZr/BXIfC', '2024-03-26 11:40:38'),
-(3, 'test3', 'LUC-NGA-002-ADM-1000300', 'test3@gmail.com', 'test3', 0, 0, '$2y$10$sEVA8K1bh42pqGuZ1nDTO.bCooPPNnx6P5fK21JREJXty5KmaacjG', '2024-03-26 11:41:52'),
+(3, 'test3', 'LUC-NGA-002-ADM-1000300', 'test3@gmail.com', 'test3', 1, 1, '$2y$10$sEVA8K1bh42pqGuZ1nDTO.bCooPPNnx6P5fK21JREJXty5KmaacjG', '2024-03-26 11:41:52'),
 (4, 'Ade', 'LUC-NGA-002-ADM-12', 'ade@gmail.com', 'Computer Software Engineering', 0, 0, '$2y$10$7F6XVdeR.C1Uu2bI/1cdvuQjwGH.ohKS3t/fl0RgCFQBgoQENWjgK', '2024-03-26 15:48:21');
 
 -- --------------------------------------------------------
