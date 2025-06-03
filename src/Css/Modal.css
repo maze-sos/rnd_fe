@@ -10,8 +10,8 @@
     align-items: center;
     justify-content: center;
     z-index: 1000;
-    max-width: 70%;
     margin: auto;
+    overflow: auto;
   }
   
   .modal-content {
@@ -19,6 +19,10 @@
     padding: 20px;
     border-radius: 5px;
     position: relative;
+    max-width: 60%;
+    max-height: 100vh;
+    overflow-y: auto;
+    margin: 10px auto;
   }
   
   .close-button {
@@ -30,7 +34,8 @@
   }
   
   .modal-image {
-    max-width: 100%;
+    max-width: 65%;
     max-height: auto;
+    margin: 30px;
   }
   

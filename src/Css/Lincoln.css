@@ -625,13 +625,28 @@ img{
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 300px;
+  cursor: pointer;
+  position: relative;
+}
+.h-project:hover {
+  background-color: rgb(220, 38, 38);
+  color: white;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  cursor: pointer;
 }
 
 .h-project img {
   width: 100%;
-  height: auto;
-  border-radius: 5px;
+  object-fit: cover; /* Ensures the image fills the square without distortion */
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 10px;
 }
+
 
 .h-project-details {
   padding: 10px 0;
